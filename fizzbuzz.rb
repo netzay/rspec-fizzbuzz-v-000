@@ -1,11 +1,11 @@
 def fizzbuzz(int)
   if int % 3 == 0 
-    print "Fizz"
+    return "Fizz"
   if int % 5 == 0 
-    print "Buzz"
+    return "Buzz"
   if int % 5 == 0 || int % 3 == 0  
-    print "FizzBuzz"
+    return "FizzBuzz"
   else
-    print "nil"
+    return "nil"
   
 end
