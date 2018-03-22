@@ -10,4 +10,5 @@ def fizzbuzz(input)
   end
   elsif input % 5 != 0 || input % 3 != 0 
     return nil
+  end
 end
