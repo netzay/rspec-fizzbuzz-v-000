@@ -1,5 +1,5 @@
 def fizzbuzz(input)
   if input % 3 == 0 
-    print "Fizz"
+    return "Fizz"
   end
 end
